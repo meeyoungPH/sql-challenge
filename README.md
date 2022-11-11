@@ -34,9 +34,11 @@ In this project, data from multiple CSV files are imported into SQL tables to an
 After setting a connection to the Postgresql database using SQL Alchemy, data are stored to a dataframe. Matplotlib is used to plot the salary distribution in a histogram and the average salary by title in a bar chart.
 ### Salary distribution
 The distribution of the salary is heavily stacked with people making exactly $40,000, which is an unlikely scenario in a real company. This data is likely manufactured.
+
 ![Salary distribution histogram][def8]
 ### Average salary by title
 The average salaries of the employees per title fall between $48,535 - $58,550 - these averages are heavily skewed by the abnormal salary distribution.
+
 ![Salary distribution histogram][def9]
 
 [def1]: employeeSQL/data/departments.csv
